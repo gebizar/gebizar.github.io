@@ -1,0 +1,7 @@
+:local(.img) {
+    max-width: 100%;
+}
+
+:local(.img:hover) {
+    opacity: 60%;
+}
