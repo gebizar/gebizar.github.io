@@ -91,7 +91,8 @@ class TabBody extends Component {
                 <TextContainer2>
                     <p> Email: </p> <a href={`mailto:`+this.props.member.email}> {this.props.member.email} </a>
                     <p> Linkedin:  </p> <a href={this.props.member.linkedin}>{this.props.member.linkedin}</a>
-                    <a href="" download></a>
+                    <br/>
+                    <b><a  href={"../resumes/"+this.props.member.name.toLowerCase()+"_resume.pdf"} download> Resume </a></b>
                 </TextContainer2>
             </Tab>
       </Tabs>

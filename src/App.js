@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css'
-import {BrowserRouter, Route, Switch, Link} from "react-router-dom";
+import {HashRouter, Route, Switch, Link} from "react-router-dom";
 import styled from 'styled-components';
 import Error from "./components/Error.js"
 import Home from "./components/Home.js"
@@ -101,7 +101,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <BrowserRouter> 
+        <HashRouter> 
           <div>
               <div className="jumbotron" style={navStyle}> 
                 <div className="container" style={{margin:"0px 0px 10px 0px"}}> 
@@ -131,7 +131,7 @@ class App extends Component {
                 <Route component={Error} />
               </Switch>
           </div>
-        </BrowserRouter>
+        </HashRouter>
 
       </div>
 
