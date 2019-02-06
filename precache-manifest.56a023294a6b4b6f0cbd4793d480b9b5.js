@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/team2/static/media/Dave.ed41ea1a.jpg"
   },
   {
-    "revision": "fad4415f87483e356f97",
+    "revision": "f13df3258d1642a2c717",
     "url": "/team2/static/css/main.600ccd4f.chunk.css"
   },
   {
-    "revision": "3496e7a065857d219bb3",
-    "url": "/team2/static/js/1.3496e7a0.chunk.js"
+    "revision": "a478db1a149cc11a845c",
+    "url": "/team2/static/js/1.a478db1a.chunk.js"
   },
   {
     "revision": "1adc758c63cb9d14f51e",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/team2/static/media/Alex.955fae3e.jpg"
   },
   {
-    "revision": "fad4415f87483e356f97",
-    "url": "/team2/static/js/main.fad4415f.chunk.js"
+    "revision": "f13df3258d1642a2c717",
+    "url": "/team2/static/js/main.f13df325.chunk.js"
   },
   {
     "revision": "cbbeeae0eb21afd7d2459c2ceadc897f",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/team2/static/media/pizza_icon.7196d18b.png"
   },
   {
-    "revision": "f75e9124a14c16344d4958349111060f",
+    "revision": "c7c597b7dd89ba81dec4c5bee2ea1e78",
     "url": "/team2/index.html"
   }
 ];
