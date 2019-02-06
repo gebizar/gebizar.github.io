@@ -80,8 +80,11 @@ class TabBody extends Component {
             <Tabs id="controlled-tab-example" activeKey={this.state.key} onSelect={key => this.setState({ key })}>
                 <Tab eventKey={this.props.member.name} title="About Me">
                     <TextContainer >
-                        <h1>{this.props.member.fullname}</h1>
-                        <p>{this.props.member.description}</p>
+                        <h1 style={{fontWeight:"bold"}}>{this.props.member.fullname}</h1>
+                        <h2 style={{fontWeight:"bold"}}> About Me </h2>
+                        <h3> Major, Track: {this.props.member.aos} </h3> 
+                        <h3> Expected Graduation: {this.props.member.ayog} </h3> 
+                        <h3>{this.props.member.description}</h3>
                     </TextContainer>
                 </Tab>
             <Tab eventKey="profile" title="Profie">

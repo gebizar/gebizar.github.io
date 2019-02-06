@@ -36,9 +36,6 @@ const Center = styled.div`
   align-items: center;
   justify-content: center;
 `
-// const headerStyle = {
-//   margin: "0px 0px 0px 0px"
-// }
 
 const Str = styled.h1`
   color: white;
@@ -56,7 +53,7 @@ class App extends Component {
         fullname: "Tu Adrian Nguyen",
         aos: "Informatics: Data Science",
         ayog: "Summer 2019",
-        description: "Play this guy in Hearthstone and he'll send you to the shadow realm.",
+        description: "Data Science Guru, knowledgeable on the facets of databases and dataframe manipulation.",
         email: "nguyet04@uw.edu",
         linkedin: "https://www.linkedin.com/in/tu-nguyen-07/",
 
@@ -68,10 +65,11 @@ class App extends Component {
         fullname: `Alex "Wenbo" Zhou`,
         aos: "Informatics: Data Security & Software Development",
         ayog: "Summer 2019",
-        description: "A budding tech entrepreneur. Embodies Valley Chic.",
+        description: `I am an Informatics student doing a custom track with a focus in software development. 
+        I enjoy play smash in my free time and reading biographies about people who I find interesting. 
+        Lately, I have been learning about Voice Assistant frameworks and how to develop a strong VUX.`,
         email: "alexz@entree.ai",
         linkedin: "https://www.linkedin.com/in/alexwzhou/",
-
         photo: Alex,
 
       },
@@ -83,7 +81,7 @@ class App extends Component {
         ayog: "Fall 2019",
         email: "337dave@gmail.com",
         linkedin: "https://www.linkedin.com/in/davidl33/",
-        description: "Young, Driven, Ambitious. Our lead UX Designer.",
+        description: "Young, Driven, Ambitious. The visionary behind the UX Design of this project.",
         photo: Dave,
 
       },
@@ -93,7 +91,7 @@ class App extends Component {
         fullname: `Gabriel "Gabe" Bizar`,
         aos: "Informatics: Data Science",
         ayog: "Summer 2019",
-        description: "2019 25 and Under Athlete of the Year",
+        description: "Hopes to work in tandem with accessibility and build products on the bleeding edge. I enjoy playing drums and computer games. Have a particular affinity for board games and one day hope to work in Game Design in the Seattle Area.",
         email: "gebizar@uw.edu",
         linkedin: "https://www.linkedin.com/in/gabe-bizar-a004a4158/",
         photo: Gabe,
@@ -111,12 +109,12 @@ class App extends Component {
                   <div className="col-1">
                     <Image alt="Pizza Icon" src={PizzaIcon} />
                   </div>
-                  <div className="col-11">
+                  <div className="col-11" style={{padding:"0px 0px 0px 0px"}}>
                     <Str> Entree.AI Voice Assistant </Str>
                   </div>
                 </Center>
                 </div>
-                <p style={{margin:"0px 0px 0px 15px"}}> Pizza Delivery. From Voice to Table </p>
+                <h2 style={{margin:"0px 0px 0px 15px"}}> Pizza Delivery. From Voice to Table </h2>
               </div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
               <ul className="navbar-nav mr-auto">
